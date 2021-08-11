@@ -6,7 +6,7 @@
   <script>
     window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
     ga('create', 'UA-12345-6', 'auto');
-    ga('send', 'pageview');
+    ga('send', 'pageview', location.pathname);
   </script>
   <script async src='https://www.google-analytics.com/analytics.js'></script>
   <!-- End Google Analytics -->
@@ -188,7 +188,6 @@
   <script src="js/main.js"></script>
   <script src="js/tagueamento.js"></script>
   <script src="js/tagueamento-analise.js"></script>
-  <script>ga('send', 'pageview', location.pathname);</script>
 </body>
 
 </html>
