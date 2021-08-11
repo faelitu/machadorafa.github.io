@@ -8,14 +8,11 @@
 // CONTATO
 let contato = document.getElementById('menu-contato');
 contato.addEventListener('click', function() {
-    console.log('click-contato');
     ga('send', 'event', 'menu', 'entre_em_contato', 'link_externo');
-
 }, false);
 
 // DOWNLOAD PDF
 let download = document.getElementById('menu-download-pdf');
 download.addEventListener('click', function() {
-    console.log('click-download-pdf');
     ga('send', 'event', 'menu', 'download_pdf', 'download_pdf');
 }, false);
